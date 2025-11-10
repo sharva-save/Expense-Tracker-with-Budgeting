@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+React Expense Tracker (Task 2)
+📌 Overview
 
-## Getting Started
+This is an Expense Tracker web application built using Next.js + React + Tailwind CSS.
+The application allows users to manage and track their Income, Expenses, and Monthly Budget with automatic calculation of totals and remaining balance.
 
-First, run the development server:
+This project is submitted for Intern Full Stack Task - Task 2: Expense Tracker with Budgeting.
 
-```bash
+✨ Features Implemented
+Feature	Description
+Add Income	Add income with amount and source
+Add Expenses	Add expenses with amount, category, and date
+Budget Management	Set monthly budget and track remaining balance
+Summary Section	Shows total income, total expenses, remaining from income & budget
+Transaction List	Displays all entered transactions
+Local Storage	Data remains saved even after page refresh
+Dark/Light Theme Toggle	User can switch theme instantly
+Expense Pie Chart	Visual chart representation of spending by category
+🛠 Tech Stack Used
+
+Next.js
+
+React
+
+Tailwind CSS
+
+Chart.js
+
+react-chartjs-2
+
+LocalStorage
+
+📂 Folder Structure
+app/
+  components/
+    AddExpenseForm.tsx
+    AddIncomeForm.tsx
+    BudgetForm.tsx
+    Summary.tsx
+    TransactionList.tsx
+    ExpenseChart.tsx
+  page.tsx
+styles/
+  globals.css
+
+🚀 How to Run the Project Locally
+1) Clone the repository
+git clone <your_repo_link_here>
+
+2) Move inside project folder
+cd react-expense-tracker
+
+3) Install dependencies
+npm install
+
+4) Run development server
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Open browser at:
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+http://localhost:3000
