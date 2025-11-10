@@ -45,7 +45,7 @@ styles/
 
 🚀 How to Run the Project Locally
 1) Clone the repository
-git clone <your_repo_link_here>
+git clone (https://github.com/sharva-save/Expense-Tracker-with-Budgeting)
 
 2) Move inside project folder
 cd react-expense-tracker
